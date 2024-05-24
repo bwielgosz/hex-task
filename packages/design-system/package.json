@@ -16,9 +16,12 @@
   "scripts": {
     "lint": "eslint . --max-warnings 0",
     "build": "tailwindcss -i ./src/global.css -o ./dist/index.css",
-    "dev": "tailwindcss -i ./src/global.css -o ./dist/index.css --watch"
+    "dev": "tailwindcss -i ./src/global.css -o ./dist/index.css --watch",
+    "test": "playwright test -c playwright-ct.config.ts"
   },
   "devDependencies": {
+    "@playwright/experimental-ct-react": "1.44.1",
+    "@playwright/test": "1.44.1",
     "@repo/eslint-config": "*",
     "@repo/typescript-config": "*",
     "@turbo/gen": "^1.13.3",

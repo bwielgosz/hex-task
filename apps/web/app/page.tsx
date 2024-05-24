@@ -1,7 +1,3 @@
 export default function Page(): JSX.Element {
-  return (
-    <main>
-      <h1>hello world! 👋</h1>
-    </main>
-  )
+  return <main className="flex-1 mt-8 flex flex-col items-center"></main>
 }

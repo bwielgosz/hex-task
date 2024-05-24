@@ -32,7 +32,7 @@ export default function Page(): JSX.Element {
             </CardContent>
             <CardFooter>
               <Link
-                href="/"
+                href={`details/${tile.id}`}
                 className={buttonVariants({ className: "w-full" })}
               >
                 {tile.buttonText}

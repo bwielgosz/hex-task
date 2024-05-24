@@ -25,7 +25,9 @@ export default function RootLayout({
             My account
           </Link>
         </header>
-        {children}
+        <main className="flex-1 flex flex-col items-center py-16 px-4 gap-12">
+          {children}
+        </main>
         <footer className="border-2 border-t-gray-200 h-24 flex items-center justify-center">
           <p className="text-lg">Footer 2024</p>
         </footer>

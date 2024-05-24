@@ -1,3 +1,4 @@
+import { buttonVariants } from "@repo/design-system/button.tsx"
 import "./globals.css"
 import "@repo/design-system/global.css"
 import type { Metadata } from "next"
@@ -21,7 +22,7 @@ export default function RootLayout({
       <body className={`${inter.className} flex flex-col h-full`}>
         <header className="flex justify-between px-8 h-16 text-lg items-center border-b-gray-200 border-2">
           <Link href="/">Home</Link>
-          <Link href="/" className="">
+          <Link href="/my-account" className={buttonVariants()}>
             My account
           </Link>
         </header>

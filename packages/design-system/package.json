@@ -10,6 +10,7 @@
     "./card.tsx": "./src/card.tsx",
     "./label.tsx": "./src/label.tsx",
     "./input.tsx": "./src/input.tsx",
+    "./newsletter.tsx": "./src/newsletter.tsx",
     "./global.css": "./dist/index.css"
   },
   "scripts": {
